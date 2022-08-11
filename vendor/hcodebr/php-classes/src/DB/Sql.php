@@ -40,7 +40,7 @@ class Sql {
 
 	}
 
-	public function query($rawQuery, $params = array())
+	public function exctQuery($rawQuery, $params = array())
 	{
 
 		$stmt = $this->conn->prepare($rawQuery);
